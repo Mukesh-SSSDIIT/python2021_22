@@ -1,0 +1,20 @@
+for i in range(1,6):
+    for j in range(1,i+1):
+        print(j,end=" ")
+    print()
+
+# print("Sr.No",end="\t")
+# print("Name",end="\t")
+# print("Class",end="\t")
+# print("Contact Number",end="\t")
+# print()
+# print("------------------------------------")
+# print(1,end="\t")
+# print("Mr.AA",end="\t")
+# print("BCA-5",end="\t")
+# print("9999999",end="\t")
+# print()
+# print(2,end="\t")
+# print("Mr.BB",end="\t")
+# print("BCA-5",end="\t")
+# print("999999989",end="\t")
