@@ -6,5 +6,4 @@ def my_factorial(num):
         return ans
 
 a = my_factorial(5)
-b = my_factorial(4)
-print(a,b)
+print(a)
