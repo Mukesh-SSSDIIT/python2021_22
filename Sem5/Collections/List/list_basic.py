@@ -30,3 +30,6 @@ print(numbers[5:])
 print(numbers[-1])
 print(numbers[4:-1])
 print(numbers[-4:-1])
+
+
+print("Length of list is", len(numbers))
