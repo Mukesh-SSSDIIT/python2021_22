@@ -60,3 +60,18 @@ s1 = {10,20,30,40,50}
 s2 = {10,40,50}
 rv = s1.issuperset(s2)
 print(rv)
+
+# symmetric_difference() - Returns a set with the symmetric differences of two sets
+s1 = {10,20,30}
+s2 = {30,40,50}
+s3 = s1.symmetric_difference(s2)
+print(s3)
+
+# symmetric_difference_update() - inserts the symmetric differences from this set and another
+
+s1 = {10,20,30}
+s2 = {30,40,50}
+# s1 = s1.symmetric_difference(s2)
+s1.symmetric_difference_update(s2)
+print(s1)
+
