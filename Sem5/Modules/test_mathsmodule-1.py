@@ -1,5 +1,6 @@
 import maths
 
+maths.greetmessage = "Jay Hind"
 ans = maths.addition(50,2)
 print(ans)
 
@@ -11,3 +12,6 @@ print(ans)
 
 ans = maths.division(50,2)
 print(ans)
+
+print(maths.student["name"])
+print(maths.student["age"])
