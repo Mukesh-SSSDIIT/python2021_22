@@ -1,0 +1,6 @@
+f_object = open("data.txt","r")
+print(f_object.read(10))
+print(f_object.read(10))
+print(f_object.read(10))
+print(f_object.read(10))
+f_object.close()
