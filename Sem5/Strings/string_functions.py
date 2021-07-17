@@ -57,3 +57,51 @@ print(str_join)
 
 nm = "Jay".ljust(20,"-")
 print(nm,"is my friend")
+
+nm = "            Rajesh             "
+print("Hello,",nm.lstrip(), "How are you?")
+print("Hello,",nm.rstrip(), "How are you?")
+print("Hello,",nm.strip(), "How are you?")
+
+nm = "BHARAT IS MY FRIEND"
+mytable = nm.maketrans("ABCD","@$^&")
+print(nm.translate(mytable))
+
+nm = "I can eat banana all the day"
+print(nm.partition("banana"))
+
+txt = "Mi casa, su casa. Hi casa"
+x = txt.rfind("casa")
+print(x)
+
+txt = "banana"
+x = txt.rjust(20,"-")
+print(x, "is my favorite fruit.")
+
+txt = "I could eat bananas all day, bananas are my favorite fruit"
+x = txt.rpartition("bananas")
+print(x)
+
+txt = "apple, banana, cherry"
+x = txt.rsplit(", ")
+print(x)
+
+txt = "welcome to the jungle"
+x = txt.split()
+print(x)
+
+txt = "Thank you for the music\nWelcome to the jungle"
+x = txt.splitlines()
+print(x)
+
+txt = "Hello, welcome to my world."
+x = txt.startswith("Hello")
+print(x)
+
+txt = "Hello My Name Is PETER"
+x = txt.swapcase()
+print(x)
+
+txt = "50"
+x = txt.zfill(10)
+print(x)
